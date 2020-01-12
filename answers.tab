@@ -1,0 +1,385 @@
+ID	HINT	HINT	ANSWER	ISNAME
+	id	Line	Station	
+i0001	chateaudevincennes	Line 1	Château de Vincennes	N
+i0002	berault	Line 1	Bérault	N
+i0003	saintmande	Line 1	Saint-Mandé	N
+i0004	portedevincennes	Line 1	Porte de Vincennes	N
+i0005	nation	Line 1	Nation	N
+i0006	reuillydiderot	Line 1	Reuilly — Diderot	N
+i0007	garedelyon	Line 1	Gare de Lyon	N
+i0008	bastille	Line 1	Bastille	N
+i0009	saintpaul	Line 1	Saint-Paul	N
+i0010	hoteldeville	Line 1	Hôtel de Ville	N
+i0011	chatelet	Line 1	Châtelet	N
+i0012	louvrerivoli	Line 1	Louvre — Rivoli	N
+i0013	palaisroyalmuseedulouvre	Line 1	Palais Royal - Musée du Louvre	N
+i0014	tuileries	Line 1	Tuileries	N
+i0015	concorde	Line 1	Concorde	N
+i0016	champselyseesclemenceau	Line 1	Champs-Élysées - Clemenceau	N
+i0017	franklindroosevelt	Line 1	Franklin D. Roosevelt	N
+i0018	georgev	Line 1	George V	N
+i0019	charlesdegaulleetoile	Line 1	Charles de Gaulle — Étoile	N
+i0020	argentine	Line 1	Argentine	N
+i0021	portemaillot	Line 1	Porte Maillot	N
+i0022	lessablons	Line 1	Les Sablons	N
+i0023	pontdeneuilly	Line 1	Pont de Neuilly	N
+i0024	esplanadedeladefense	Line 1	Esplanade de La Défense	N
+i0025	ladefensegrandearche	Line 1	La Défense - Grande Arche	N
+i0026	portedauphine	Line 2	Porte Dauphine	N
+i0027	victorhugo	Line 2	Victor Hugo	N
+i0028	charlesdegaulleetoile	Line 2	Charles de Gaulle — Étoile	N
+i0029	ternes	Line 2	Ternes	N
+i0030	courcelles	Line 2	Courcelles	N
+i0031	monceau	Line 2	Monceau	N
+i0032	villiers	Line 2	Villiers	N
+i0033	rome	Line 2	Rome	N
+i0034	placedeclichy	Line 2	Place de Clichy	N
+i0035	blanche	Line 2	Blanche	N
+i0036	pigalle	Line 2	Pigalle	N
+i0037	anvers	Line 2	Anvers	N
+i0038	barbesrochechouart	Line 2	Barbès - Rochechouart	N
+i0039	lachapelle	Line 2	La Chapelle	N
+i0040	stalingrad	Line 2	Stalingrad	N
+i0041	jaures	Line 2	Jaurès	N
+i0042	colonelfabien	Line 2	Colonel Fabien	N
+i0043	belleville	Line 2	Belleville	N
+i0044	couronnes	Line 2	Couronnes	N
+i0045	menilmontant	Line 2	Ménilmontant	N
+i0046	perelachaise	Line 2	Père Lachaise	N
+i0047	philippeauguste	Line 2	Philippe Auguste	N
+i0048	alexandredumas	Line 2	Alexandre Dumas	N
+i0049	avron	Line 2	Avron	N
+i0050	nation	Line 2	Nation	N
+i0051	gallieni	Line 3	Gallieni	N
+i0052	portedebagnolet	Line 3	Porte de Bagnolet	N
+i0053	gambetta	Line 3	Gambetta	N
+i0054	perelachaise	Line 3	Père Lachaise	N
+i0055	ruesaintmaur	Line 3	Rue Saint-Maur	N
+i0056	parmentier	Line 3	Parmentier	N
+i0057	republique	Line 3	République	N
+i0058	temple	Line 3	Temple	N
+i0059	artsetmetiers	Line 3	Arts et Métiers	N
+i0060	reaumursebastopol	Line 3	Réaumur - Sébastopol	N
+i0061	sentier	Line 3	Sentier	N
+i0062	bourse	Line 3	Bourse	N
+i0063	quatreseptembre	Line 3	Quatre Septembre	N
+i0064	opera	Line 3	Opéra	N
+i0065	havrecaumartin	Line 3	Havre - Caumartin	N
+i0066	saintlazare	Line 3	Saint-Lazare	N
+i0067	europe	Line 3	Europe	N
+i0068	villiers	Line 3	Villiers	N
+i0069	malesherbes	Line 3	Malesherbes	N
+i0070	wagram	Line 3	Wagram	N
+i0071	pereire	Line 3	Pereire	N
+i0072	portedechamperret	Line 3	Porte de Champerret	N
+i0073	louisemichel	Line 3	Louise Michel	N
+i0074	anatolefrance	Line 3	Anatole France	N
+i0075	pontdelevalloisbecon	Line 3	Pont de Levallois – Bécon	N
+i0076	gambetta	Line 3bis	Gambetta	N
+i0077	pelleport	Line 3bis	Pelleport	N
+i0078	saintfargeau	Line 3bis	Saint-Fargeau	N
+i0079	portedeslilas	Line 3bis	Porte des Lilas	N
+i0080	portedeclignancourt	Line 4	Porte de Clignancourt	N
+i0081	simplon	Line 4	Simplon	N
+i0082	marcadetpoissonniers	Line 4	Marcadet - Poissonniers	N
+i0083	chateaurouge	Line 4	Château Rouge	N
+i0084	barbesrochechouart	Line 4	Barbès - Rochechouart	N
+i0085	garedunord	Line 4	Gare du Nord	N
+i0086	garedelest	Line 4	Gare de L'Est	N
+i0087	chateaudeau	Line 4	Château d'Eau	N
+i0088	strasbourgsaintdenis	Line 4	Strasbourg - Saint-Denis	N
+i0089	reaumursebastopol	Line 4	Réaumur - Sébastopol	N
+i0090	etiennemarcel	Line 4	Étienne Marcel	N
+i0091	leshalles	Line 4	Les Halles	N
+i0092	chatelet	Line 4	Châtelet	N
+i0093	cite	Line 4	Cité	N
+i0094	saintmichel	Line 4	Saint-Michel	N
+i0095	odeon	Line 4	Odéon	N
+i0096	saintgermaindespres	Line 4	Saint-Germain-des-Prés	N
+i0097	saintsulpice	Line 4	Saint-Sulpice	N
+i0098	saintplacide	Line 4	Saint-Placide	N
+i0099	montparnassebienvenue	Line 4	Montparnasse-Bienvenüe	N
+i0100	vavin	Line 4	Vavin	N
+i0101	raspail	Line 4	Raspail	N
+i0102	denfertrochereau	Line 4	Denfert-Rochereau	N
+i0103	moutonduvernet	Line 4	Mouton-Duvernet	N
+i0104	alesia	Line 4	Alésia	N
+i0105	portedorleans	Line 4	Porte d'Orléans	N
+i0106	mairiedemontrouge	Line 4	Mairie de Montrouge	N
+i0107	placeditalie	Line 5	Place d'Italie	N
+i0108	campoformio	Line 5	Campo-Formio	N
+i0109	saintmarcel	Line 5	Saint-Marcel	N
+i0110	garedausterlitz	Line 5	Gare d'Austerlitz	N
+i0111	quaidelarapee	Line 5	Quai de la Rapée	N
+i0112	bastille	Line 5	Bastille	N
+i0113	breguetsabin	Line 5	Bréguet-Sabin	N
+i0114	richardlenoir	Line 5	Richard Lenoir	N
+i0115	oberkampf	Line 5	Oberkampf	N
+i0116	republique	Line 5	République	N
+i0117	jacquesbonsergent	Line 5	Jacques Bonsergent	N
+i0118	garedelest	Line 5	Gare de L'Est	N
+i0119	garedunord	Line 5	Gare du Nord	N
+i0120	stalingrad	Line 5	Stalingrad	N
+i0121	jaures	Line 5	Jaurès	N
+i0122	laumiere	Line 5	Laumière	N
+i0123	ourcq	Line 5	Ourcq	N
+i0124	portedepantinparcdelavillette	Line 5	Porte de Pantin (Parc de la Villette)	N
+i0125	hoche	Line 5	Hoche	N
+i0126	eglisedepantin	Line 5	Église de Pantin	N
+i0127	bobignypantinraymondqueneau	Line 5	Bobigny - Pantin - Raymond Queneau	N
+i0128	bobignypablopicasso	Line 5	Bobigny - Pablo Picasso	N
+i0129	charlesdegaulleetoile	Line 6	Charles de Gaulle — Étoile	N
+i0130	kleber	Line 6	Kléber	N
+i0131	boissiere	Line 6	Boissière	N
+i0132	trocadero	Line 6	Trocadéro	N
+i0133	passy	Line 6	Passy	N
+i0134	birhakeim	Line 6	Bir-Hakeim	N
+i0135	dupleix	Line 6	Dupleix	N
+i0136	lamottepicquetgrenelle	Line 6	La Motte-Picquet - Grenelle	N
+i0137	cambronne	Line 6	Cambronne	N
+i0138	sevreslecourbe	Line 6	Sèvres-Lecourbe	N
+i0139	pasteur	Line 6	Pasteur	N
+i0140	montparnassebienvenue	Line 6	Montparnasse-Bienvenüe	N
+i0141	edgarquinet	Line 6	Edgar Quinet	N
+i0142	raspail	Line 6	Raspail	N
+i0143	denfertrochereau	Line 6	Denfert-Rochereau	N
+i0144	saintjacques	Line 6	Saint-Jacques	N
+i0145	glaciere	Line 6	Glacière	N
+i0146	corvisart	Line 6	Corvisart	N
+i0147	placeditalie	Line 6	Place d'Italie	N
+i0148	nationale	Line 6	Nationale	N
+i0149	chevaleret	Line 6	Chevaleret	N
+i0150	quaidelagare	Line 6	Quai de la Gare	N
+i0151	bercy	Line 6	Bercy	N
+i0152	dugommier	Line 6	Dugommier	N
+i0153	daumesnil	Line 6	Daumesnil	N
+i0154	belair	Line 6	Bel-Air	N
+i0155	picpus	Line 6	Picpus	N
+i0156	nation	Line 6	Nation	N
+i0157	lacourneuvemai	Line 7	La Courneuve - 8 mai 1945	N
+i0158	fortdaubervilliers	Line 7	Fort d'Aubervilliers	N
+i0159	aubervillierspantinquatrechemins	Line 7	Aubervilliers - Pantin - Quatre Chemins	N
+i0160	portedelavillette	Line 7	Porte de la Villette	N
+i0161	corentincariou	Line 7	Corentin Cariou	N
+i0162	crimee	Line 7	Crimée	N
+i0163	riquet	Line 7	Riquet	N
+i0164	stalingrad	Line 7	Stalingrad	N
+i0165	louisblanc	Line 7	Louis Blanc	N
+i0166	chateaulandon	Line 7	Château Landon	N
+i0167	garedelest	Line 7	Gare de L'Est	N
+i0168	poissonniere	Line 7	Poissonnière	N
+i0169	cadet	Line 7	Cadet	N
+i0170	lepeletier	Line 7	Le Peletier	N
+i0171	chausseedantinlafayette	Line 7	Chaussée d'Antin - La Fayette	N
+i0172	opera	Line 7	Opéra	N
+i0173	pyramides	Line 7	Pyramides	N
+i0174	palaisroyalmuseedulouvre	Line 7	Palais Royal - Musée du Louvre	N
+i0175	pontneuf	Line 7	Pont Neuf	N
+i0176	chatelet	Line 7	Châtelet	N
+i0177	pontmarie	Line 7	Pont Marie	N
+i0178	sullymorland	Line 7	Sully - Morland	N
+i0179	jussieu	Line 7	Jussieu	N
+i0180	placemonge	Line 7	Place Monge	N
+i0181	censierdaubenton	Line 7	Censier - Daubenton	N
+i0182	lesgobelins	Line 7	Les Gobelins	N
+i0183	placeditalie	Line 7	Place d'Italie	N
+i0184	tolbiac	Line 7	Tolbiac	N
+i0185	maisonblanche	Line 7	Maison Blanche	N
+i0186	lekremlinbicetre	Line 7	Le Kremlin-Bicêtre	N
+i0187	villejuifleolagrange	Line 7	Villejuif - Léo Lagrange	N
+i0188	villejuifpaulvaillantcouturier	Line 7	Villejuif - Paul Vaillant-Couturier	N
+i0189	villejuiflouisaragon	Line 7	Villejuif - Louis Aragon	N
+i0190	porteditalie	Line 7	Porte d'Italie	N
+i0191	portedechoisy	Line 7	Porte de Choisy	N
+i0192	portedivry	Line 7	Porte d'Ivry	N
+i0193	pierreetmariecurie	Line 7	Pierre et Marie Curie	N
+i0194	mairiedivry	Line 7	Mairie d'Ivry	N
+i0195	louisblanc	Line 7bis	Louis Blanc	N
+i0196	jaures	Line 7bis	Jaurès	N
+i0197	bolivar	Line 7bis	Bolivar	N
+i0198	butteschaumont	Line 7bis	Buttes Chaumont	N
+i0199	botzaris	Line 7bis	Botzaris	N
+i0200	placedesfetes	Line 7bis	Place des Fêtes	N
+i0201	presaintgervais	Line 7bis	Pré Saint-Gervais	N
+i0202	danube	Line 7bis	Danube	N
+i0203	creteilpointedulac	Line 8	Créteil-Pointe du Lac	N
+i0204	creteilprefecture	Line 8	Créteil-Préfecture	N
+i0205	creteiluniversite	Line 8	Créteil-Université	N
+i0206	creteillechat	Line 8	Créteil-L'Échat	N
+i0207	maisonsalfortlesjuilliottes	Line 8	Maisons-Alfort — Les Juilliottes	N
+i0208	maisonsalfortstade	Line 8	Maisons-Alfort — Stade	N
+i0209	ecoleveterinairedemaisonsalfort	Line 8	École Vétérinaire de Maisons-Alfort	N
+i0210	charentonecoles	Line 8	Charenton-Écoles	N
+i0211	liberte	Line 8	Liberté	N
+i0212	portedecharenton	Line 8	Porte de Charenton	N
+i0213	portedoree	Line 8	Porte Dorée	N
+i0214	michelbizot	Line 8	Michel Bizot	N
+i0215	daumesnil	Line 8	Daumesnil	N
+i0216	montgallet	Line 8	Montgallet	N
+i0217	reuillydiderot	Line 8	Reuilly — Diderot	N
+i0218	faidherbechaligny	Line 8	Faidherbe — Chaligny	N
+i0219	ledrurollin	Line 8	Ledru-Rollin	N
+i0220	bastille	Line 8	Bastille	N
+i0221	cheminvert	Line 8	Chemin Vert	N
+i0222	saintsebastienfroissart	Line 8	Saint-Sébastien - Froissart	N
+i0223	fillesducalvaire	Line 8	Filles du Calvaire	N
+i0224	republique	Line 8	République	N
+i0225	strasbourgsaintdenis	Line 8	Strasbourg - Saint-Denis	N
+i0226	bonnenouvelle	Line 8	Bonne Nouvelle	N
+i0227	grandsboulevards	Line 8	Grands Boulevards	N
+i0228	richelieudrouot	Line 8	Richelieu Drouot	N
+i0229	opera	Line 8	Opéra	N
+i0230	madeleine	Line 8	Madeleine	N
+i0231	concorde	Line 8	Concorde	N
+i0232	invalides	Line 8	Invalides	N
+i0233	latourmaubourg	Line 8	La Tour Maubourg	N
+i0234	ecolemilitaire	Line 8	École Militaire	N
+i0235	lamottepicquetgrenelle	Line 8	La Motte-Picquet - Grenelle	N
+i0236	commerce	Line 8	Commerce	N
+i0237	felixfaure	Line 8	Félix Faure	N
+i0238	boucicaut	Line 8	Boucicaut	N
+i0239	lourmel	Line 8	Lourmel	N
+i0240	balard	Line 8	Balard	N
+i0241	pontdesevres	Line 9	Pont de Sèvres	N
+i0242	billancourt	Line 9	Billancourt	N
+i0243	marcelsembat	Line 9	Marcel Sembat	N
+i0244	portedesaintcloud	Line 9	Porte de Saint-Cloud	N
+i0245	exelmans	Line 9	Exelmans	N
+i0246	michelangemolitor	Line 9	Michel-Ange - Molitor	N
+i0247	michelangeauteuil	Line 9	Michel-Ange - Auteuil	N
+i0248	jasmin	Line 9	Jasmin	N
+i0249	ranelagh	Line 9	Ranelagh	N
+i0250	lamuette	Line 9	La Muette	N
+i0251	ruedelapompe	Line 9	Rue de la Pompe	N
+i0252	trocadero	Line 9	Trocadéro	N
+i0253	iena	Line 9	Iéna	N
+i0254	almamarceau	Line 9	Alma-Marceau	N
+i0255	franklindroosevelt	Line 9	Franklin D. Roosevelt	N
+i0256	saintphilippeduroule	Line 9	Saint-Philippe du Roule	N
+i0257	miromesnil	Line 9	Miromesnil	N
+i0258	saintaugustin	Line 9	Saint-Augustin	N
+i0259	havrecaumartin	Line 9	Havre - Caumartin	N
+i0260	chausseedantinlafayette	Line 9	Chaussée d'Antin - La Fayette	N
+i0261	richelieudrouot	Line 9	Richelieu Drouot	N
+i0262	grandsboulevards	Line 9	Grands Boulevards	N
+i0263	bonnenouvelle	Line 9	Bonne Nouvelle	N
+i0264	strasbourgsaintdenis	Line 9	Strasbourg - Saint-Denis	N
+i0265	republique	Line 9	République	N
+i0266	oberkampf	Line 9	Oberkampf	N
+i0267	saintambroise	Line 9	Saint-Ambroise	N
+i0268	voltaire	Line 9	Voltaire	N
+i0269	charonne	Line 9	Charonne	N
+i0270	ruedesboulets	Line 9	Rue des Boulets	N
+i0271	nation	Line 9	Nation	N
+i0272	buzenval	Line 9	Buzenval	N
+i0273	maraichers	Line 9	Maraîchers	N
+i0274	portedemontreuil	Line 9	Porte de Montreuil	N
+i0275	robespierre	Line 9	Robespierre	N
+i0276	croixdechavaux	Line 9	Croix de Chavaux	N
+i0277	mairiedemontreuil	Line 9	Mairie de Montreuil	N
+i0278	boulognepontdesaintcloud	Line 10	Boulogne - Pont de Saint-Cloud	N
+i0279	boulognejeanjaures	Line 10	Boulogne - Jean Jaurès	N
+i0280	michelangemolitor	Line 10	Michel-Ange - Molitor	N
+i0281	chardonlagache	Line 10	Chardon Lagache	N
+i0282	mirabeau	Line 10	Mirabeau	N
+i0283	javelandrecitroen	Line 10	Javel - André Citroën	N
+i0284	charlesmichels	Line 10	Charles Michels	N
+i0285	avenueemilezola	Line 10	Avenue Émile Zola	N
+i0286	lamottepicquetgrenelle	Line 10	La Motte-Picquet - Grenelle	N
+i0287	segur	Line 10	Ségur	N
+i0288	duroc	Line 10	Duroc	N
+i0289	vaneau	Line 10	Vaneau	N
+i0290	sevresbabylone	Line 10	Sèvres-Babylone	N
+i0291	mabillon	Line 10	Mabillon	N
+i0292	odeon	Line 10	Odéon	N
+i0293	clunylasorbonne	Line 10	Cluny-La Sorbonne	N
+i0294	maubertmutualite	Line 10	Maubert - Mutualité	N
+i0295	cardinallemoine	Line 10	Cardinal Lemoine	N
+i0296	jussieu	Line 10	Jussieu	N
+i0297	garedausterlitz	Line 10	Gare d'Austerlitz	N
+i0298	eglisedauteuil	Line 10	Église d'Auteuil	N
+i0299	michelangeauteuil	Line 10	Michel-Ange - Auteuil	N
+i0300	portedauteuil	Line 10	Porte d'Auteuil	N
+i0301	chatelet	Line 11	Châtelet	N
+i0302	hoteldeville	Line 11	Hôtel de Ville	N
+i0303	rambuteau	Line 11	Rambuteau	N
+i0304	artsetmetiers	Line 11	Arts et Métiers	N
+i0305	republique	Line 11	République	N
+i0306	goncourt	Line 11	Goncourt	N
+i0307	belleville	Line 11	Belleville	N
+i0308	pyrenees	Line 11	Pyrénées	N
+i0309	jourdain	Line 11	Jourdain	N
+i0310	placedesfetes	Line 11	Place des Fêtes	N
+i0311	telegraphe	Line 11	Télégraphe	N
+i0312	portedeslilas	Line 11	Porte des Lilas	N
+i0313	mairiedeslilas	Line 11	Mairie des Lilas	N
+i0314	frontpopulaire	Line 12	Front Populaire	N
+i0315	portedelachapelle	Line 12	Porte de la Chapelle	N
+i0316	marxdormoy	Line 12	Marx Dormoy	N
+i0317	marcadetpoissonniers	Line 12	Marcadet - Poissonniers	N
+i0318	julesjoffrin	Line 12	Jules Joffrin	N
+i0319	lamarckcaulaincourt	Line 12	Lamarck - Caulaincourt	N
+i0320	abbesses	Line 12	Abbesses	N
+i0321	pigalle	Line 12	Pigalle	N
+i0322	saintgeorges	Line 12	Saint-Georges	N
+i0323	notredamedelorette	Line 12	Notre-Dame de Lorette	N
+i0324	trinitedestiennedorves	Line 12	Trinité d'Estienne d'Orves	N
+i0325	saintlazare	Line 12	Saint-Lazare	N
+i0326	madeleine	Line 12	Madeleine	N
+i0327	concorde	Line 12	Concorde	N
+i0328	assembleenationale	Line 12	Assemblée Nationale	N
+i0329	solferino	Line 12	Solférino	N
+i0330	ruedubac	Line 12	Rue du Bac	N
+i0331	sevresbabylone	Line 12	Sèvres-Babylone	N
+i0332	rennes	Line 12	Rennes	N
+i0333	notredamedeschamps	Line 12	Notre-Dame des Champs	N
+i0334	montparnassebienvenue	Line 12	Montparnasse-Bienvenüe	N
+i0335	falguiere	Line 12	Falguière	N
+i0336	pasteur	Line 12	Pasteur	N
+i0337	volontaires	Line 12	Volontaires	N
+i0338	vaugirard	Line 12	Vaugirard	N
+i0339	convention	Line 12	Convention	N
+i0340	portedeversailles	Line 12	Porte de Versailles	N
+i0341	corentincelton	Line 12	Corentin Celton	N
+i0342	mairiedissy	Line 12	Mairie d'Issy	N
+i0343	chatillonmontrouge	Line 13	Châtillon-Montrouge	N
+i0344	malakoffrueetiennedolet	Line 13	Malakoff - Rue Étienne Dolet	N
+i0345	malakoffplateaudevanves	Line 13	Malakoff - Plateau de Vanves	N
+i0346	portedevanves	Line 13	Porte de Vanves	N
+i0347	plaisance	Line 13	Plaisance	N
+i0348	pernety	Line 13	Pernety	N
+i0349	gaite	Line 13	Gaîté	N
+i0350	montparnassebienvenue	Line 13	Montparnasse-Bienvenüe	N
+i0351	duroc	Line 13	Duroc	N
+i0352	saintfrancoisxavier	Line 13	Saint-François-Xavier	N
+i0353	varenne	Line 13	Varenne	N
+i0354	invalides	Line 13	Invalides	N
+i0355	champselyseesclemenceau	Line 13	Champs-Élysées - Clemenceau	N
+i0356	miromesnil	Line 13	Miromesnil	N
+i0357	saintlazare	Line 13	Saint-Lazare	N
+i0358	liege	Line 13	Liège	N
+i0359	placedeclichy	Line 13	Place de Clichy	N
+i0360	lafourche	Line 13	La Fourche	N
+i0361	brochant	Line 13	Brochant	N
+i0362	portedeclichy	Line 13	Porte de Clichy	N
+i0363	mairiedeclichy	Line 13	Mairie de Clichy	N
+i0364	gabrielperi	Line 13	Gabriel Péri	N
+i0365	lesagnettes	Line 13	Les Agnettes	N
+i0366	asnieresgennevillierslescourtilles	Line 13	Asnières-Gennevilliers–Les Courtilles	N
+i0367	guymoquet	Line 13	Guy Môquet	N
+i0368	portedesaintouen	Line 13	Porte de Saint-Ouen	N
+i0369	garibaldi	Line 13	Garibaldi	N
+i0370	mairiedesaintouen	Line 13	Mairie de Saint-Ouen	N
+i0371	carrefourpleyel	Line 13	Carrefour Pleyel	N
+i0372	saintdenisportedeparis	Line 13	Saint-Denis - Porte de Paris	N
+i0373	basiliquedesaintdenis	Line 13	Basilique de Saint-Denis	N
+i0374	saintdenisuniversite	Line 13	Saint-Denis - Université	N
+i0375	saintlazare	Line 14	Saint-Lazare	N
+i0376	madeleine	Line 14	Madeleine	N
+i0377	pyramides	Line 14	Pyramides	N
+i0378	chatelet	Line 14	Châtelet	N
+i0379	garedelyon	Line 14	Gare de Lyon	N
+i0380	bercy	Line 14	Bercy	N
+i0381	coursaintemilion	Line 14	Cour Saint-Émilion	N
+i0382	bibliothequefrancoismitterrand	Line 14	Bibliothèque François Mitterrand	N
+i0383	olympiades	Line 14	Olympiades	N
