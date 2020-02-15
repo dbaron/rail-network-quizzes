@@ -5,9 +5,21 @@ import os.path
 import math
 import itertools
 import unicodedata
+from optparse import OptionParser
+
+op = OptionParser()
+(options, args) = op.parse_args()
+
+if len(args) != 1:
+    op.error("expected 1 argument but got {0}".format(len(args)))
+network_relation_id = None
+try:
+    network_relation_id = int(args[0])
+except:
+    op.error("expected a single integer argument but got \"{0}\"".format(args[0]))
 
 # Read in the data saved by "get-osm-data.py", from OpenStreetMap.
-io = open(os.path.join(os.path.dirname(__file__), "data.json"))
+io = open(os.path.join(os.path.dirname(__file__), "{0}-data.json".format(network_relation_id)))
 data = json.load(io)
 io.close()
 
@@ -192,7 +204,7 @@ for line in lines:
     line["stop_names"] = stop_names
 
 
-map_io = open(os.path.join(os.path.dirname(__file__), "map.svg"), "w")
+map_io = open(os.path.join(os.path.dirname(__file__), "{0}-map.svg".format(network_relation_id)), "w")
 map_io.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="{}" width="{}" height="{}">\n'.format(viewBox, width, height))
 
 # Draw the subway lines
@@ -218,7 +230,7 @@ map_io.write('<text x="{}" y="{}" font-size="12" text-anchor="end">© OpenStreet
 map_io.write('</svg>\n')
 map_io.close()
 
-answers_io = open(os.path.join(os.path.dirname(__file__), "answers.tab"), "w")
+answers_io = open(os.path.join(os.path.dirname(__file__), "{0}-answers.tab".format(network_relation_id)), "w")
 answers_io.write("ID\tHINT\tHINT\tANSWER\tISNAME\n")
 answers_io.write("\tid\tLine\tStation\t\n")
 id_counter = 0

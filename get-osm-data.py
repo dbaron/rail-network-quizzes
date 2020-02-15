@@ -15,26 +15,26 @@ import osmapi
 
 passwords = imp.load_source("passwords", "/home/dbaron/.passwords.py")
 
+op = OptionParser()
+(options, args) = op.parse_args()
+
+if len(args) != 1:
+    op.error("expected 1 argument but got {0}".format(len(args)))
+network_relation_id = None
+try:
+    network_relation_id = int(args[0])
+except:
+    op.error("expected a single integer argument but got \"{0}\"".format(args[0]))
+
 api = osmapi.OsmApi(username=passwords.get_osm_username(), password=passwords.get_osm_password())
 
-metro_line_relations = [
-  3328695, # 1
-  7227705, # 2
-  7733214, # 3
-  7420646, # 3bis
-  3326845, # 4
-  7420645, # 5
-  3328765, # 6
-  3328805, # 7
-  2554103, # 7bis
-  7420644, # 8
-  3328717, # 9
-  3328741, # 10
-  7420643, # 11
-  7420642, # 12
-  7420641, # 13
-  3328694 # 14
-]
+metro_line_relations = []
+network_relation = api.RelationGet(network_relation_id)
+network_name = network_relation[u"tag"][u"name"]
+for nitem in network_relation[u"member"]:
+    if nitem[u"type"] == u"relation":
+        rel_id = nitem[u"ref"]
+        metro_line_relations.append(rel_id)
 
 lines = []
 station_node_ids = set()
@@ -114,6 +114,8 @@ for node in nodes.values():
         sys.stderr.write("WARNING: node {} is not visible!\n".format(node["id"]))
     del node["visible"]
 
-data = { "lines": lines, "ways": ways, "nodes": nodes }
-print(json.dumps(data, indent=True, sort_keys=True))
-#print(data)
+data = { "network_relation_id": network_relation_id, "network_name": network_name,
+         "lines": lines, "ways": ways, "nodes": nodes }
+outfile = open("{0}-data.json".format(network_relation_id), "w")
+json.dump(data, outfile, indent=True, sort_keys=True)
+outfile.close()
