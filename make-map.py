@@ -193,7 +193,8 @@ for line in lines:
         return (lon_to_svg(node["lon"]), lat_to_svg(node["lat"]))
     point_sequences = [[node_to_point(node_id) for node_id in node_sequence] for node_sequence in node_sequences]
 
-    # Merge paths (within one line) that are too close together into a single path.
+    # Merge paths (within one line, or multiple lines with the same
+    # color) that are too close together into a single path.
     # FIXME: WRITE THIS (although it's not particularly important)
 
     # Once all lines are done, separate lines that overlap
