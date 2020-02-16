@@ -148,9 +148,15 @@ for line in lines:
                         current_way_id = way_id
                         break
                 if current_way_id is None:
-                    # This should only be possible the first time through the inner loop.
-                    start_node_stack.pop()
-                    way_sequences.pop()
+                    # This is possible either:
+                    #  (1) the first time through the inner loop, because we
+                    #      tried starting from a node from which all the ways
+                    #      have already been mapped, which we should now push
+                    #      off the start node stack, or
+                    #  (2) because we just completed a circle.
+                    if len(current_sequence) == 0:
+                        start_node_stack.pop()
+                        way_sequences.pop()
                     break
 
                 current_way = ways[current_way_id]
