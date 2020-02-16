@@ -75,6 +75,8 @@ for master_rel_id in metro_line_relations:
                     ways_to_fetch.add(ritem_ref)
                 elif ritem[u"type"] == u"way" and (ritem[u"role"] == u"platform" or ritem[u"role"] == u"platform_entry_only" or ritem[u"role"] == u"platform_exit_only" or ritem[u"role"] == u"access"):
                     pass
+                elif ritem[u"type"] == u"relation" and ritem[u"role"] == u"platform":
+                    pass
                 else:
                     sys.stderr.write("WARNING: relation {} has unexpected member type {} role {} ref {}\n".format(rel_id, ritem[u"type"], ritem[u"role"], ritem_ref))
 
