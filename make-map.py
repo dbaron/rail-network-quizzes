@@ -31,7 +31,7 @@ stops_by_name = dict()
 stops_by_id = dict()
 
 def line_to_name(line):
-    return line["name"][6:].replace(" ","")
+    return line["ref"]
 
 def station_name_to_id(name):
     return "".join(filter(lambda c: c.isalpha(), unicodedata.normalize("NFKD", name))).lower()

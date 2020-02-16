@@ -51,6 +51,7 @@ for master_rel_id in metro_line_relations:
     line["stops"] = line_stations_list
     mtags = route_master_relation[u"tag"]
     line["name"] = mtags[u"name"]
+    line["ref"] = mtags[u"ref"]
     if (u"colour" in mtags):
         line["color"] = mtags[u"colour"]
     for mitem in route_master_relation[u"member"]:

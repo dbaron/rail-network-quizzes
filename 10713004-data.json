@@ -3,6 +3,7 @@
   {
    "color": "#F2C931",
    "name": "M\u00e9tro 1",
+   "ref": "1",
    "stops": [
     241928757,
     241928758,
@@ -112,6 +113,7 @@
   {
    "color": "#216EB4",
    "name": "M\u00e9tro 2",
+   "ref": "2",
    "stops": [
     243496729,
     3703620036,
@@ -179,6 +181,7 @@
   {
    "color": "#9A9940",
    "name": "M\u00e9tro 3",
+   "ref": "3",
    "stops": [
     243507233,
     6282166773,
@@ -235,6 +238,7 @@
   {
    "color": "#89C7D6",
    "name": "M\u00e9tro 3bis",
+   "ref": "3bis",
    "stops": [
     4058743781,
     264796182,
@@ -248,6 +252,7 @@
   {
    "color": "#BB4D98",
    "name": "M\u00e9tro 4",
+   "ref": "4",
    "stops": [
     1780486821,
     264505993,
@@ -314,6 +319,7 @@
   {
    "color": "#DE8B53",
    "name": "M\u00e9tro 5",
+   "ref": "5",
    "stops": [
     4317624965,
     265055750,
@@ -404,6 +410,7 @@
   {
    "color": "#75c695",
    "name": "M\u00e9tro 6",
+   "ref": "6",
    "stops": [
     4317589251,
     6351910205,
@@ -485,6 +492,7 @@
   {
    "color": "#FA9ABA",
    "name": "M\u00e9tro 7",
+   "ref": "7",
    "stops": [
     270244850,
     270244435,
@@ -564,6 +572,7 @@
   {
    "color": "#79BB92",
    "name": "M\u00e9tro 7 bis",
+   "ref": "7bis",
    "stops": [
     4318350666,
     243494334,
@@ -583,6 +592,7 @@
   {
    "color": "#C5A3CA",
    "name": "M\u00e9tro 8",
+   "ref": "8",
    "stops": [
     928458344,
     6935824089,
@@ -680,6 +690,7 @@
   {
    "color": "#CDC83F",
    "name": "M\u00e9tro 9",
+   "ref": "9",
    "stops": [
     370455978,
     355153536,
@@ -736,6 +747,7 @@
   {
    "color": "#DFB039",
    "name": "M\u00e9tro 10",
+   "ref": "10",
    "stops": [
     264541617,
     264539964,
@@ -778,6 +790,7 @@
   {
    "color": "#8E6538",
    "name": "M\u00e9tro 11",
+   "ref": "11",
    "stops": [
     3164606088,
     4319193757,
@@ -804,6 +817,7 @@
   {
    "color": "#328E5B",
    "name": "M\u00e9tro 12",
+   "ref": "12",
    "stops": [
     2075532859,
     264505930,
@@ -873,6 +887,7 @@
   {
    "color": "#89C7D6",
    "name": "M\u00e9tro 13",
+   "ref": "13",
    "stops": [
     12388528,
     12388534,
@@ -1011,6 +1026,7 @@
   {
    "color": "#67328E",
    "name": "M\u00e9tro 14",
+   "ref": "14",
    "stops": [
     243510338,
     3146958066,
@@ -1324,10 +1340,10 @@
    "tag": {
     "STIF:zone": "1",
     "name": "Concorde",
-    "name:de": "Eintracht",
-    "name:es": "Concordia",
+    "name:de": "Concorde",
+    "name:es": "Concorde",
     "name:it": "Concorde",
-    "name:pt": "Conc\u00f3rdia",
+    "name:pt": "Concorde",
     "name:ru": "\u041a\u043e\u043d\u043a\u043e\u0440\u0434",
     "operator": "RATP",
     "public_transport": "stop_position",
@@ -1339,7 +1355,7 @@
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (m\u00e9tro de Paris)"
    },
-   "version": 8
+   "version": 9
   },
   "27362258": {
    "id": 27362258,
@@ -11235,10 +11251,10 @@
    "tag": {
     "STIF:zone": "1",
     "name": "Concorde",
-    "name:de": "Eintracht",
-    "name:es": "Concordia",
+    "name:de": "Concorde",
+    "name:es": "Concorde",
     "name:it": "Concorde",
-    "name:pt": "Conc\u00f3rdia",
+    "name:pt": "Concorde",
     "name:ru": "\u041a\u043e\u043d\u043a\u043e\u0440\u0434",
     "operator": "RATP",
     "public_transport": "stop_position",
@@ -11250,7 +11266,7 @@
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (m\u00e9tro de Paris)"
    },
-   "version": 12
+   "version": 13
   },
   "1489806675": {
    "id": 1489806675,
@@ -28451,10 +28467,10 @@
    "tag": {
     "STIF:zone": "1",
     "name": "Concorde",
-    "name:de": "Eintracht",
-    "name:es": "Concordia",
+    "name:de": "Concorde",
+    "name:es": "Concorde",
     "name:it": "Concorde",
-    "name:pt": "Conc\u00f3rdia",
+    "name:pt": "Concorde",
     "name:ru": "\u041a\u043e\u043d\u043a\u043e\u0440\u0434",
     "operator": "RATP",
     "public_transport": "stop_position",
@@ -28466,7 +28482,7 @@
     "wikidata": "Q970075",
     "wikipedia": "fr:Concorde (m\u00e9tro de Paris)"
    },
-   "version": 2
+   "version": 3
   },
   "5155161999": {
    "id": 5155161999,
@@ -28566,13 +28582,13 @@
    "lon": 2.3413281,
    "tag": {
     "railway": "signal",
-    "railway:signal:direction": "forward",
+    "railway:signal:direction": "backward",
     "railway:signal:main": "yes",
     "railway:signal:main:form": "light",
     "railway:signal:speed_limit": "yes",
     "railway:signal:speed_limit:speed": "55"
    },
-   "version": 1
+   "version": 2
   },
   "5155172756": {
    "id": 5155172756,
@@ -41629,6 +41645,13 @@
    "lon": 2.2766505,
    "tag": {},
    "version": 1
+  },
+  "7214908832": {
+   "id": 7214908832,
+   "lat": 48.8597874,
+   "lon": 2.3442556,
+   "tag": {},
+   "version": 1
   }
  },
  "ways": {
@@ -49553,11 +49576,12 @@
   "531018896": {
    "id": 531018896,
    "nd": [
-    5155172755,
-    4317589166,
-    4317589165,
+    5155172756,
     3175323853,
-    5155172756
+    4317589165,
+    7214908832,
+    4317589166,
+    5155172755
    ],
    "tag": {
     "detail": "track",
@@ -49577,7 +49601,7 @@
     "tunnel": "yes",
     "voltage": "750"
    },
-   "version": 1
+   "version": 2
   },
   "531018897": {
    "id": 531018897,
