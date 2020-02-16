@@ -26,6 +26,7 @@ io.close()
 lines = data["lines"]
 ways = data["ways"]
 nodes = data["nodes"]
+network_name = data["network_name"]
 stops_by_name = dict()
 stops_by_id = dict()
 
@@ -182,11 +183,12 @@ for line in lines:
     stop_names = []
     for node_id in line["stops"]:
         name = nodes[str(node_id)]["tag"]["name"]
-        if name == "Réaumur Sébastopol":
-            name = "Réaumur - Sébastopol"
-        if name == "Saint-Denis-Université":
-            name = "Saint-Denis - Université"
-        name = name.replace(" (Hopital Henri Mondor)", "")
+        if network_name == "M\u00e9tro de Paris":
+            if name == "Réaumur Sébastopol":
+                name = "Réaumur - Sébastopol"
+            if name == "Saint-Denis-Université":
+                name = "Saint-Denis - Université"
+            name = name.replace(" (Hopital Henri Mondor)", "")
         if name not in stop_names:
             stop_names.append(name)
 
