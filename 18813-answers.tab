@@ -1,0 +1,379 @@
+ID	HINT	HINT	ANSWER	ISNAME
+	id	Line	Station	
+i0001	wannsee	S1	Wannsee	N
+i0002	nikolassee	S1	Nikolassee	N
+i0003	schlachtensee	S1	Schlachtensee	N
+i0004	mexikoplatz	S1	Mexikoplatz	N
+i0005	zehlendorf	S1	Zehlendorf	N
+i0006	sundgauerstraße	S1	Sundgauer Straße	N
+i0007	lichterfeldewest	S1	Lichterfelde West	N
+i0008	botanischergarten	S1	Botanischer Garten	N
+i0009	rathaussteglitz	S1	Rathaus Steglitz	N
+i0010	feuerbachstraße	S1	Feuerbachstraße	N
+i0011	friedenau	S1	Friedenau	N
+i0012	schoneberg	S1	Schöneberg	N
+i0013	juliusleberbrucke	S1	Julius-Leber-Brücke	N
+i0014	yorckstraße	S1	Yorckstraße	N
+i0015	anhalterbahnhof	S1	Anhalter Bahnhof	N
+i0016	potsdamerplatz	S1	Potsdamer Platz	N
+i0017	brandenburgertor	S1	Brandenburger Tor	N
+i0018	friedrichstraße	S1	Friedrichstraße	N
+i0019	oranienburgerstraße	S1	Oranienburger Straße	N
+i0020	nordbahnhof	S1	Nordbahnhof	N
+i0021	humboldthain	S1	Humboldthain	N
+i0022	gesundbrunnen	S1	Gesundbrunnen	N
+i0023	bornholmerstraße	S1	Bornholmer Straße	N
+i0024	wollankstraße	S1	Wollankstraße	N
+i0025	schonholz	S1	Schönholz	N
+i0026	wilhelmsruh	S1	Wilhelmsruh	N
+i0027	wittenau	S1	Wittenau	N
+i0028	waidmannslust	S1	Waidmannslust	N
+i0029	hermsdorf	S1	Hermsdorf	N
+i0030	frohnau	S1	Frohnau	N
+i0031	hohenneuendorf	S1	Hohen Neuendorf	N
+i0032	birkenwerder	S1	Birkenwerder	N
+i0033	borgsdorf	S1	Borgsdorf	N
+i0034	lehnitz	S1	Lehnitz	N
+i0035	oranienburg	S1	Oranienburg	N
+i0036	blankenfelde	S2	Blankenfelde	N
+i0037	mahlow	S2	Mahlow	N
+i0038	lichtenrade	S2	Lichtenrade	N
+i0039	schichauweg	S2	Schichauweg	N
+i0040	buckowerchaussee	S2	Buckower Chaussee	N
+i0041	marienfelde	S2	Marienfelde	N
+i0042	attilastraße	S2	Attilastraße	N
+i0043	priesterweg	S2	Priesterweg	N
+i0044	sudkreuz	S2	Südkreuz	N
+i0045	yorckstraße	S2	Yorckstraße	N
+i0046	anhalterbahnhof	S2	Anhalter Bahnhof	N
+i0047	potsdamerplatz	S2	Potsdamer Platz	N
+i0048	brandenburgertor	S2	Brandenburger Tor	N
+i0049	friedrichstraße	S2	Friedrichstraße	N
+i0050	oranienburgerstraße	S2	Oranienburger Straße	N
+i0051	nordbahnhof	S2	Nordbahnhof	N
+i0052	humboldthain	S2	Humboldthain	N
+i0053	gesundbrunnen	S2	Gesundbrunnen	N
+i0054	bornholmerstraße	S2	Bornholmer Straße	N
+i0055	pankow	S2	Pankow	N
+i0056	pankowheinersdorf	S2	Pankow-Heinersdorf	N
+i0057	blankenburg	S2	Blankenburg	N
+i0058	karow	S2	Karow	N
+i0059	buch	S2	Buch	N
+i0060	rontgental	S2	Röntgental	N
+i0061	zepernick	S2	Zepernick	N
+i0062	bernaufriedenstal	S2	Bernau-Friedenstal	N
+i0063	bernau	S2	Bernau	N
+i0064	erkner	S3	Erkner	N
+i0065	wilhelmshagen	S3	Wilhelmshagen	N
+i0066	rahnsdorf	S3	Rahnsdorf	N
+i0067	friedrichshagen	S3	Friedrichshagen	N
+i0068	hirschgarten	S3	Hirschgarten	N
+i0069	kopenick	S3	Köpenick	N
+i0070	wuhlheide	S3	Wuhlheide	N
+i0071	karlshorst	S3	Karlshorst	N
+i0072	betriebsbahnhofrummelsburg	S3	Betriebsbahnhof Rummelsburg	N
+i0073	rummelsburg	S3	Rummelsburg	N
+i0074	ostkreuz	S3	Ostkreuz	N
+i0075	warschauerstraße	S3	Warschauer Straße	N
+i0076	ostbahnhof	S3	Ostbahnhof	N
+i0077	jannowitzbrucke	S3	Jannowitzbrücke	N
+i0078	alexanderplatz	S3	Alexanderplatz	N
+i0079	hackeschermarkt	S3	Hackescher Markt	N
+i0080	friedrichstraße	S3	Friedrichstraße	N
+i0081	hauptbahnhof	S3	Hauptbahnhof	N
+i0082	bellevue	S3	Bellevue	N
+i0083	tiergarten	S3	Tiergarten	N
+i0084	zoologischergarten	S3	Zoologischer Garten	N
+i0085	savignyplatz	S3	Savignyplatz	N
+i0086	charlottenburg	S3	Charlottenburg	N
+i0087	westkreuz	S3	Westkreuz	N
+i0088	messesud	S3	Messe Süd	N
+i0089	heerstraße	S3	Heerstraße	N
+i0090	olympiastadion	S3	Olympiastadion	N
+i0091	pichelsberg	S3	Pichelsberg	N
+i0092	stresow	S3	Stresow	N
+i0093	spandau	S3	Spandau	N
+i0094	strausbergnord	S5	Strausberg Nord	N
+i0095	strausbergstadt	S5	Strausberg Stadt	N
+i0096	hegermuhle	S5	Hegermühle	N
+i0097	strausberg	S5	Strausberg	N
+i0098	petershagennord	S5	Petershagen Nord	N
+i0099	fredersdorf	S5	Fredersdorf	N
+i0100	neuenhagen	S5	Neuenhagen	N
+i0101	hoppegarten	S5	Hoppegarten	N
+i0102	birkenstein	S5	Birkenstein	N
+i0103	mahlsdorf	S5	Mahlsdorf	N
+i0104	kaulsdorf	S5	Kaulsdorf	N
+i0105	suwuhletal	S5	S+U Wuhletal	N
+i0106	biesdorf	S5	Biesdorf	N
+i0107	friedrichsfeldeost	S5	Friedrichsfelde Ost	N
+i0108	lichtenberg	S5	Lichtenberg	N
+i0109	noldnerplatz	S5	Nöldnerplatz	N
+i0110	ostkreuz	S5	Ostkreuz	N
+i0111	warschauerstraße	S5	Warschauer Straße	N
+i0112	ostbahnhof	S5	Ostbahnhof	N
+i0113	jannowitzbrucke	S5	Jannowitzbrücke	N
+i0114	alexanderplatz	S5	Alexanderplatz	N
+i0115	hackeschermarkt	S5	Hackescher Markt	N
+i0116	friedrichstraße	S5	Friedrichstraße	N
+i0117	hauptbahnhof	S5	Hauptbahnhof	N
+i0118	bellevue	S5	Bellevue	N
+i0119	tiergarten	S5	Tiergarten	N
+i0120	zoologischergarten	S5	Zoologischer Garten	N
+i0121	savignyplatz	S5	Savignyplatz	N
+i0122	charlottenburg	S5	Charlottenburg	N
+i0123	westkreuz	S5	Westkreuz	N
+i0124	ahrensfelde	S7	Ahrensfelde	N
+i0125	mehrowerallee	S7	Mehrower Allee	N
+i0126	raoulwallenbergstraße	S7	Raoul-Wallenberg-Straße	N
+i0127	marzahn	S7	Marzahn	N
+i0128	poelchaustraße	S7	Poelchaustraße	N
+i0129	springpfuhl	S7	Springpfuhl	N
+i0130	friedrichsfeldeost	S7	Friedrichsfelde Ost	N
+i0131	lichtenberg	S7	Lichtenberg	N
+i0132	noldnerplatz	S7	Nöldnerplatz	N
+i0133	ostkreuz	S7	Ostkreuz	N
+i0134	warschauerstraße	S7	Warschauer Straße	N
+i0135	ostbahnhof	S7	Ostbahnhof	N
+i0136	jannowitzbrucke	S7	Jannowitzbrücke	N
+i0137	alexanderplatz	S7	Alexanderplatz	N
+i0138	hackeschermarkt	S7	Hackescher Markt	N
+i0139	friedrichstraße	S7	Friedrichstraße	N
+i0140	hauptbahnhof	S7	Hauptbahnhof	N
+i0141	bellevue	S7	Bellevue	N
+i0142	tiergarten	S7	Tiergarten	N
+i0143	zoologischergarten	S7	Zoologischer Garten	N
+i0144	savignyplatz	S7	Savignyplatz	N
+i0145	charlottenburg	S7	Charlottenburg	N
+i0146	westkreuz	S7	Westkreuz	N
+i0147	grunewald	S7	Grunewald	N
+i0148	nikolassee	S7	Nikolassee	N
+i0149	wannsee	S7	Wannsee	N
+i0150	griebnitzsee	S7	Griebnitzsee	N
+i0151	babelsberg	S7	Babelsberg	N
+i0152	potsdamhauptbahnhof	S7	Potsdam Hauptbahnhof	N
+i0153	zeuthen	S8	Zeuthen	N
+i0154	eichwalde	S8	Eichwalde	N
+i0155	grunau	S8	Grünau	N
+i0156	adlershof	S8	Adlershof	N
+i0157	betriebsbahnhofschoneweide	S8	Betriebsbahnhof Schöneweide	N
+i0158	schoneweide	S8	Schöneweide	N
+i0159	baumschulenweg	S8	Baumschulenweg	N
+i0160	planterwald	S8	Plänterwald	N
+i0161	treptowerpark	S8	Treptower Park	N
+i0162	ostkreuz	S8	Ostkreuz	N
+i0163	frankfurterallee	S8	Frankfurter Allee	N
+i0164	storkowerstraße	S8	Storkower Straße	N
+i0165	landsbergerallee	S8	Landsberger Allee	N
+i0166	greifswalderstraße	S8	Greifswalder Straße	N
+i0167	prenzlauerallee	S8	Prenzlauer Allee	N
+i0168	schonhauserallee	S8	Schönhauser Allee	N
+i0169	bornholmerstraße	S8	Bornholmer Straße	N
+i0170	pankow	S8	Pankow	N
+i0171	pankowheinersdorf	S8	Pankow-Heinersdorf	N
+i0172	blankenburg	S8	Blankenburg	N
+i0173	muhlenbeckmonchmuhle	S8	Mühlenbeck-Mönchmühle	N
+i0174	schonfließ	S8	Schönfließ	N
+i0175	bergfelde	S8	Bergfelde	N
+i0176	hohenneuendorf	S8	Hohen Neuendorf	N
+i0177	birkenwerder	S8	Birkenwerder	N
+i0178	flughafenberlinschonefeld	S9	Flughafen Berlin-Schönefeld	N
+i0179	grunbergallee	S9	Grünbergallee	N
+i0180	altglienicke	S9	Altglienicke	N
+i0181	adlershof	S9	Adlershof	N
+i0182	betriebsbahnhofschoneweide	S9	Betriebsbahnhof Schöneweide	N
+i0183	schoneweide	S9	Schöneweide	N
+i0184	baumschulenweg	S9	Baumschulenweg	N
+i0185	planterwald	S9	Plänterwald	N
+i0186	treptowerpark	S9	Treptower Park	N
+i0187	warschauerstraße	S9	Warschauer Straße	N
+i0188	ostbahnhof	S9	Ostbahnhof	N
+i0189	jannowitzbrucke	S9	Jannowitzbrücke	N
+i0190	alexanderplatz	S9	Alexanderplatz	N
+i0191	hackeschermarkt	S9	Hackescher Markt	N
+i0192	friedrichstraße	S9	Friedrichstraße	N
+i0193	hauptbahnhof	S9	Hauptbahnhof	N
+i0194	bellevue	S9	Bellevue	N
+i0195	tiergarten	S9	Tiergarten	N
+i0196	zoologischergarten	S9	Zoologischer Garten	N
+i0197	savignyplatz	S9	Savignyplatz	N
+i0198	charlottenburg	S9	Charlottenburg	N
+i0199	westkreuz	S9	Westkreuz	N
+i0200	messesud	S9	Messe Süd	N
+i0201	heerstraße	S9	Heerstraße	N
+i0202	olympiastadion	S9	Olympiastadion	N
+i0203	pichelsberg	S9	Pichelsberg	N
+i0204	stresow	S9	Stresow	N
+i0205	spandau	S9	Spandau	N
+i0206	teltowstadt	S25	Teltow Stadt	N
+i0207	lichterfeldesud	S25	Lichterfelde Süd	N
+i0208	osdorferstraße	S25	Osdorfer Straße	N
+i0209	lichterfeldeost	S25	Lichterfelde Ost	N
+i0210	lankwitz	S25	Lankwitz	N
+i0211	sudende	S25	Südende	N
+i0212	priesterweg	S25	Priesterweg	N
+i0213	sudkreuz	S25	Südkreuz	N
+i0214	yorckstraße	S25	Yorckstraße	N
+i0215	anhalterbahnhof	S25	Anhalter Bahnhof	N
+i0216	potsdamerplatz	S25	Potsdamer Platz	N
+i0217	brandenburgertor	S25	Brandenburger Tor	N
+i0218	friedrichstraße	S25	Friedrichstraße	N
+i0219	oranienburgerstraße	S25	Oranienburger Straße	N
+i0220	nordbahnhof	S25	Nordbahnhof	N
+i0221	humboldthain	S25	Humboldthain	N
+i0222	gesundbrunnen	S25	Gesundbrunnen	N
+i0223	bornholmerstraße	S25	Bornholmer Straße	N
+i0224	wollankstraße	S25	Wollankstraße	N
+i0225	schonholz	S25	Schönholz	N
+i0226	altreinickendorf	S25	Alt-Reinickendorf	N
+i0227	karlbonhoeffernervenklinik	S25	Karl-Bonhoeffer-Nervenklinik	N
+i0228	eichborndamm	S25	Eichborndamm	N
+i0229	tegel	S25	Tegel	N
+i0230	schulzendorf	S25	Schulzendorf	N
+i0231	heiligensee	S25	Heiligensee	N
+i0232	hennigsdorf	S25	Hennigsdorf	N
+i0233	teltowstadt	S26	Teltow Stadt	N
+i0234	lichterfeldesud	S26	Lichterfelde Süd	N
+i0235	osdorferstraße	S26	Osdorfer Straße	N
+i0236	lichterfeldeost	S26	Lichterfelde Ost	N
+i0237	lankwitz	S26	Lankwitz	N
+i0238	sudende	S26	Südende	N
+i0239	priesterweg	S26	Priesterweg	N
+i0240	sudkreuz	S26	Südkreuz	N
+i0241	yorckstraße	S26	Yorckstraße	N
+i0242	anhalterbahnhof	S26	Anhalter Bahnhof	N
+i0243	potsdamerplatz	S26	Potsdamer Platz	N
+i0244	brandenburgertor	S26	Brandenburger Tor	N
+i0245	friedrichstraße	S26	Friedrichstraße	N
+i0246	oranienburgerstraße	S26	Oranienburger Straße	N
+i0247	nordbahnhof	S26	Nordbahnhof	N
+i0248	humboldthain	S26	Humboldthain	N
+i0249	gesundbrunnen	S26	Gesundbrunnen	N
+i0250	bornholmerstraße	S26	Bornholmer Straße	N
+i0251	wollankstraße	S26	Wollankstraße	N
+i0252	schonholz	S26	Schönholz	N
+i0253	wilhelmsruh	S26	Wilhelmsruh	N
+i0254	wittenau	S26	Wittenau	N
+i0255	waidmannslust	S26	Waidmannslust	N
+i0256	gesundbrunnen	S41	Gesundbrunnen	N
+i0257	schonhauserallee	S41	Schönhauser Allee	N
+i0258	prenzlauerallee	S41	Prenzlauer Allee	N
+i0259	greifswalderstraße	S41	Greifswalder Straße	N
+i0260	landsbergerallee	S41	Landsberger Allee	N
+i0261	storkowerstraße	S41	Storkower Straße	N
+i0262	frankfurterallee	S41	Frankfurter Allee	N
+i0263	ostkreuz	S41	Ostkreuz	N
+i0264	treptowerpark	S41	Treptower Park	N
+i0265	sonnenallee	S41	Sonnenallee	N
+i0266	neukolln	S41	Neukölln	N
+i0267	hermannstraße	S41	Hermannstraße	N
+i0268	tempelhof	S41	Tempelhof	N
+i0269	sudkreuz	S41	Südkreuz	N
+i0270	schoneberg	S41	Schöneberg	N
+i0271	innsbruckerplatz	S41	Innsbrucker Platz	N
+i0272	bundesplatz	S41	Bundesplatz	N
+i0273	heidelbergerplatz	S41	Heidelberger Platz	N
+i0274	hohenzollerndamm	S41	Hohenzollerndamm	N
+i0275	halensee	S41	Halensee	N
+i0276	westkreuz	S41	Westkreuz	N
+i0277	messenordicc	S41	Messe Nord/ICC	N
+i0278	westend	S41	Westend	N
+i0279	jungfernheide	S41	Jungfernheide	N
+i0280	beusselstraße	S41	Beusselstraße	N
+i0281	westhafen	S41	Westhafen	N
+i0282	wedding	S41	Wedding	N
+i0283	gesundbrunnen	S42	Gesundbrunnen	N
+i0284	wedding	S42	Wedding	N
+i0285	westhafen	S42	Westhafen	N
+i0286	beusselstraße	S42	Beusselstraße	N
+i0287	jungfernheide	S42	Jungfernheide	N
+i0288	westend	S42	Westend	N
+i0289	messenordicc	S42	Messe Nord/ICC	N
+i0290	westkreuz	S42	Westkreuz	N
+i0291	halensee	S42	Halensee	N
+i0292	hohenzollerndamm	S42	Hohenzollerndamm	N
+i0293	heidelbergerplatz	S42	Heidelberger Platz	N
+i0294	bundesplatz	S42	Bundesplatz	N
+i0295	innsbruckerplatz	S42	Innsbrucker Platz	N
+i0296	schoneberg	S42	Schöneberg	N
+i0297	sudkreuz	S42	Südkreuz	N
+i0298	tempelhof	S42	Tempelhof	N
+i0299	hermannstraße	S42	Hermannstraße	N
+i0300	neukolln	S42	Neukölln	N
+i0301	sonnenallee	S42	Sonnenallee	N
+i0302	treptowerpark	S42	Treptower Park	N
+i0303	ostkreuz	S42	Ostkreuz	N
+i0304	frankfurterallee	S42	Frankfurter Allee	N
+i0305	storkowerstraße	S42	Storkower Straße	N
+i0306	landsbergerallee	S42	Landsberger Allee	N
+i0307	greifswalderstraße	S42	Greifswalder Straße	N
+i0308	prenzlauerallee	S42	Prenzlauer Allee	N
+i0309	schonhauserallee	S42	Schönhauser Allee	N
+i0310	flughafenberlinschonefeld	S45	Flughafen Berlin-Schönefeld	N
+i0311	grunbergallee	S45	Grünbergallee	N
+i0312	altglienicke	S45	Altglienicke	N
+i0313	adlershof	S45	Adlershof	N
+i0314	betriebsbahnhofschoneweide	S45	Betriebsbahnhof Schöneweide	N
+i0315	schoneweide	S45	Schöneweide	N
+i0316	baumschulenweg	S45	Baumschulenweg	N
+i0317	kollnischeheide	S45	Köllnische Heide	N
+i0318	neukolln	S45	Neukölln	N
+i0319	hermannstraße	S45	Hermannstraße	N
+i0320	tempelhof	S45	Tempelhof	N
+i0321	sudkreuz	S45	Südkreuz	N
+i0322	konigswusterhausen	S46	Königs Wusterhausen	N
+i0323	wildau	S46	Wildau	N
+i0324	zeuthen	S46	Zeuthen	N
+i0325	eichwalde	S46	Eichwalde	N
+i0326	grunau	S46	Grünau	N
+i0327	adlershof	S46	Adlershof	N
+i0328	betriebsbahnhofschoneweide	S46	Betriebsbahnhof Schöneweide	N
+i0329	schoneweide	S46	Schöneweide	N
+i0330	baumschulenweg	S46	Baumschulenweg	N
+i0331	kollnischeheide	S46	Köllnische Heide	N
+i0332	neukolln	S46	Neukölln	N
+i0333	hermannstraße	S46	Hermannstraße	N
+i0334	tempelhof	S46	Tempelhof	N
+i0335	sudkreuz	S46	Südkreuz	N
+i0336	schoneberg	S46	Schöneberg	N
+i0337	innsbruckerplatz	S46	Innsbrucker Platz	N
+i0338	bundesplatz	S46	Bundesplatz	N
+i0339	heidelbergerplatz	S46	Heidelberger Platz	N
+i0340	hohenzollerndamm	S46	Hohenzollerndamm	N
+i0341	halensee	S46	Halensee	N
+i0342	westkreuz	S46	Westkreuz	N
+i0343	messenordicc	S46	Messe Nord/ICC	N
+i0344	westend	S46	Westend	N
+i0345	spindlersfeld	S47	Spindlersfeld	N
+i0346	oberspree	S47	Oberspree	N
+i0347	schoneweide	S47	Schöneweide	N
+i0348	baumschulenweg	S47	Baumschulenweg	N
+i0349	kollnischeheide	S47	Köllnische Heide	N
+i0350	neukolln	S47	Neukölln	N
+i0351	hermannstraße	S47	Hermannstraße	N
+i0352	wartenberg	S75	Wartenberg	N
+i0353	hohenschonhausen	S75	Hohenschönhausen	N
+i0354	gehrenseestraße	S75	Gehrenseestraße	N
+i0355	springpfuhl	S75	Springpfuhl	N
+i0356	friedrichsfeldeost	S75	Friedrichsfelde Ost	N
+i0357	lichtenberg	S75	Lichtenberg	N
+i0358	noldnerplatz	S75	Nöldnerplatz	N
+i0359	ostkreuz	S75	Ostkreuz	N
+i0360	warschauerstraße	S75	Warschauer Straße	N
+i0361	ostbahnhof	S75	Ostbahnhof	N
+i0362	grunau	S85	Grünau	N
+i0363	adlershof	S85	Adlershof	N
+i0364	betriebsbahnhofschoneweide	S85	Betriebsbahnhof Schöneweide	N
+i0365	schoneweide	S85	Schöneweide	N
+i0366	baumschulenweg	S85	Baumschulenweg	N
+i0367	planterwald	S85	Plänterwald	N
+i0368	treptowerpark	S85	Treptower Park	N
+i0369	ostkreuz	S85	Ostkreuz	N
+i0370	frankfurterallee	S85	Frankfurter Allee	N
+i0371	storkowerstraße	S85	Storkower Straße	N
+i0372	landsbergerallee	S85	Landsberger Allee	N
+i0373	greifswalderstraße	S85	Greifswalder Straße	N
+i0374	prenzlauerallee	S85	Prenzlauer Allee	N
+i0375	schonhauserallee	S85	Schönhauser Allee	N
+i0376	bornholmerstraße	S85	Bornholmer Straße	N
+i0377	pankow	S85	Pankow	N

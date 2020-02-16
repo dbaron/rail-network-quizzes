@@ -4,6 +4,7 @@ import json
 import os.path
 import math
 import itertools
+import re
 import unicodedata
 from optparse import OptionParser
 
@@ -199,6 +200,11 @@ for line in lines:
             if name == "Saint-Denis-Université":
                 name = "Saint-Denis - Université"
             name = name.replace(" (Hopital Henri Mondor)", "")
+        elif network_name == "S-Bahnlinien in Berlin":
+            # remove the initial "S " from most station names
+            name = re.sub("^S ", "", name)
+            # remove parentheticals at the end of station names
+            name = re.sub(" \\([^()]*\\)$", "", name)
         if name not in stop_names:
             stop_names.append(name)
 
@@ -248,7 +254,9 @@ answers_io.write("\tid\tLine\tStation\t\n")
 id_counter = 0
 for line in lines:
     line_name = line_to_name(line)
+    if network_name != "S-Bahnlinien in Berlin":
+        line_name = "Line " + line_name
     for stop_name in line["stop_names"]:
         id_counter = id_counter + 1
-        answers_io.write("i{:04}\t{}\tLine {}\t{}\tN\n".format(id_counter, station_name_to_id(stop_name), line_name, stop_name))
+        answers_io.write("i{:04}\t{}\t{}\t{}\tN\n".format(id_counter, station_name_to_id(stop_name), line_name, stop_name))
 answers_io.close()
