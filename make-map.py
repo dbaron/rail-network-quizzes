@@ -98,17 +98,27 @@ for line in lines:
             for endnode in (way_nodes[0], way_nodes[-1]):
                 way_endpoint_map[endnode] = way_endpoint_map.get(endnode, []) + [way_id]
 
+        # Sort by id so map generation is deterministic.  (They're
+        # strings, but that's fine, the determinism is what matters.)
+        for endpoint_map_value in way_endpoint_map.values():
+            endpoint_map_value.sort()
+
         # Start at the first point we find in our map with a number
-        # other than 2 ways.
+        # other than 2 ways.  But make it the first by _ID_ so that we
+        # deterministically generate the same map each time rather than
+        # relying on hash enumeration order.
         start_node = None
+        start_node_fallback = None
         for (endnode, endnode_ways) in way_endpoint_map.items():
+            if start_node_fallback is None or endnode < start_node_fallback:
+                start_node_fallback = endnode
             if len(endnode_ways) != 2:
-                start_node = endnode
-                break
+                if start_node is None or endnode < start_node:
+                    start_node = endnode
         if start_node is None:
             # We have only circles remaining.  Pick a random starting
             # point.
-            start_node = iter(way_endpoint_map.keys()).__next__()
+            start_node = start_node_fallback
 
         start_node_stack = [start_node]
         while len(start_node_stack) > 0:
