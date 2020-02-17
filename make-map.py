@@ -90,6 +90,9 @@ width = lon_to_svg(max_lon) + 2 * viewBoxPadding
 height = lat_to_svg(min_lat) + 2 * viewBoxPadding + bottomPadding
 viewBox = "{} {} {} {}".format(-viewBoxPadding, -viewBoxPadding, width, height)
 
+lines_by_color = []
+color_to_line_index = {}
+
 # Process the lines of the map
 for line in lines:
     print("Processing line {}.".format(line["name"]))
@@ -193,24 +196,19 @@ for line in lines:
         return (lon_to_svg(node["lon"]), lat_to_svg(node["lat"]))
     point_sequences = [[node_to_point(node_id) for node_id in node_sequence] for node_sequence in node_sequences]
 
-    # Merge paths (within one line, or multiple lines with the same
-    # color) that are too close together into a single path.
-    # FIXME: WRITE THIS (although it's not particularly important)
-
-    # Once all lines are done, separate lines that overlap
-    # FIXME: WRITE THIS (somewhat more important than the above, but
-    # depends on it and would share code)
-
-    # Serialize the lines to an SVG path
-    path_string = ""
-    for point_sequence in point_sequences:
-        next_command = "M"
-        for (x, y) in point_sequence:
-            path_string += "{} {} {} ".format(next_command, x, y)
-            next_command = "L"
-
-    path_string = path_string.rstrip(" ")
-    line["path"] = path_string
+    # If there's an existing line with this line's color, merge it
+    # rather than adding a new entry.
+    existing_color_index = color_to_line_index.get(line["color"], None)
+    if existing_color_index is None:
+        color = line["color"]
+        lines_by_color.append({ "color": color,
+                                "id": "line{0}".format(line_to_name(line)),
+                                "points": point_sequences })
+        color_to_line_index[color] = len(lines_by_color) - 1
+    else:
+        color_entry = lines_by_color[existing_color_index]
+        color_entry["id"] += "-line{0}".format(line_to_name(line))
+        color_entry["points"] += point_sequences
 
     stop_names = []
     for node_id in line["stops"]:
@@ -242,13 +240,28 @@ for line in lines:
 
     line["stop_names"] = stop_names
 
+# Merge paths (within one line, or multiple lines with the same color)
+# that are too close together into a single path.
+# FIXME: WRITE THIS (although it's not particularly important)
+
+# Once all lines are done, separate lines that overlap
+# FIXME: WRITE THIS (somewhat more important than the above, but depends
+# on it and would share code)
 
 map_io = open(os.path.join(os.path.dirname(__file__), "{0}-map.svg".format(network_relation_id)), "w")
 map_io.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="{}" width="{}" height="{}">\n'.format(viewBox, width, height))
 
 # Draw the subway lines
-for line in lines:
-    map_io.write('<path id="line{}" stroke="{}" stroke-width="3" fill="none" d="{}" />\n'.format(line_to_name(line), line["color"], line["path"]))
+for line in lines_by_color:
+    # Serialize the lines to an SVG path
+    path_string = ""
+    for point_sequence in line["points"]:
+        next_command = "M"
+        for (x, y) in point_sequence:
+            path_string += "{} {} {} ".format(next_command, x, y)
+            next_command = "L"
+    path_string = path_string.rstrip(" ")
+    map_io.write('<path id="{}" stroke="{}" stroke-width="3" fill="none" d="{}" />\n'.format(line["id"], line["color"], path_string))
 
 # Draw the subway stations
 for (stop_name, stop_points) in stops_by_name.items():
