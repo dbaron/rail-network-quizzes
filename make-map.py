@@ -253,17 +253,20 @@ for line in lines:
 map_io = open(os.path.join(os.path.dirname(__file__), "{0}-map.svg".format(network_relation_id)), "w")
 map_io.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="{}" width="{}" height="{}">\n'.format(viewBox, width, height))
 
-# Draw the subway lines
-for line in lines_by_color:
+def point_sequences_to_svg_path(point_sequences):
     # Serialize the lines to an SVG path
     path_string = ""
-    for point_sequence in line["points"]:
+    for point_sequence in point_sequences:
         next_command = "M"
         for (x, y) in point_sequence:
             path_string += "{} {} {} ".format(next_command, x, y)
             next_command = "L"
     path_string = path_string.rstrip(" ")
-    map_io.write('<path id="{}" stroke="{}" stroke-width="3" fill="none" d="{}" />\n'.format(line["id"], line["color"], path_string))
+    return path_string
+
+# Draw the subway lines
+for line in lines_by_color:
+    map_io.write('<path id="{}" stroke="{}" stroke-width="3" fill="none" d="{}" />\n'.format(line["id"], line["color"], point_sequences_to_svg_path(line["points"])))
 
 # Draw the subway stations
 for (stop_name, stop_points) in stops_by_name.items():
