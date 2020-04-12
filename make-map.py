@@ -90,18 +90,15 @@ width = lon_to_svg(max_lon) + 2 * viewBoxPadding
 height = lat_to_svg(min_lat) + 2 * viewBoxPadding + bottomPadding
 viewBox = "{} {} {} {}".format(-viewBoxPadding, -viewBoxPadding, width, height)
 
-lines_by_color = []
-color_to_line_index = {}
+def node_to_point(node_id):
+    node = nodes[str(node_id)]
+    return (lon_to_svg(node["lon"]), lat_to_svg(node["lat"]))
 
-# Process the lines of the map
-for line in lines:
-    print("Processing line {}.".format(line["name"]))
-    line_ways = line["ways"]
-
+def way_list_to_point_sequences(way_list):
     # Build the maximal sequences of ways that don't involve any
     # forking/branching on this line.
     way_sequences = []
-    ways_remaining = set(line_ways.keys())
+    ways_remaining = set(way_list.keys())
     while len(ways_remaining) > 0:
         # We'll only go through this loop more than once if there are
         # disconnected segments of this subway line, which really
@@ -134,8 +131,8 @@ for line in lines:
                 if start_node is None or endnode < start_node:
                     start_node = endnode
         if start_node is None:
-            # We have only circles remaining.  Pick a random starting
-            # point.
+            # We have only circles remaining.  Start with the lowest
+            # way by ID.
             start_node = start_node_fallback
 
         start_node_stack = [start_node]
@@ -191,10 +188,15 @@ for line in lines:
             first = False
         return seq_nodes
     node_sequences = [way_sequence_to_node_sequence(ws) for ws in way_sequences]
-    def node_to_point(node_id):
-        node = nodes[str(node_id)]
-        return (lon_to_svg(node["lon"]), lat_to_svg(node["lat"]))
-    point_sequences = [[node_to_point(node_id) for node_id in node_sequence] for node_sequence in node_sequences]
+    return [[node_to_point(node_id) for node_id in node_sequence] for node_sequence in node_sequences]
+
+lines_by_color = []
+color_to_line_index = {}
+
+# Process the lines of the map
+for line in lines:
+    print("Processing line {}.".format(line["name"]))
+    point_sequences = way_list_to_point_sequences(line["ways"])
 
     # If there's an existing line with this line's color, merge it
     # rather than adding a new entry.
