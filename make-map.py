@@ -94,11 +94,11 @@ def node_to_point(node_id):
     node = nodes[str(node_id)]
     return (lon_to_svg(node["lon"]), lat_to_svg(node["lat"]))
 
-def way_list_to_point_sequences(way_list):
+def way_iterable_to_point_sequences(way_iterable):
     # Build the maximal sequences of ways that don't involve any
     # forking/branching on this line.
     way_sequences = []
-    ways_remaining = set(way_list.keys())
+    ways_remaining = set(way_iterable)
     while len(ways_remaining) > 0:
         # We'll only go through this loop more than once if there are
         # disconnected segments of this subway line, which really
@@ -196,7 +196,7 @@ color_to_line_index = {}
 # Process the lines of the map
 for line in lines:
     print("Processing line {}.".format(line["name"]))
-    point_sequences = way_list_to_point_sequences(line["ways"])
+    point_sequences = way_iterable_to_point_sequences(line["ways"].keys())
 
     # If there's an existing line with this line's color, merge it
     # rather than adding a new entry.
